@@ -1,0 +1,30 @@
+
+*{margin:0;padding:0;box-sizing:border-box;font-family:'Inter',sans-serif}
+body{background:#0b0f1a;color:#e6e9f2}
+a{text-decoration:none;color:inherit}
+.navbar{display:flex;justify-content:space-between;align-items:center;padding:20px 8%;position:sticky;top:0;background:#0b0f1a}
+.navbar ul{display:flex;gap:24px;list-style:none}
+.cta-btn{background:#fff;color:#000;padding:8px 16px;border-radius:20px;font-weight:600}
+.hero{padding:120px 8%}
+.hero h1{font-size:3.5rem;line-height:1.2}
+.hero h1 span{color:#6aa7ff}
+.subtitle{color:#6aa7ff;font-size:0.8rem;letter-spacing:1px}
+.hero-buttons{margin-top:30px}
+.hero-buttons a{margin-right:16px;padding:14px 28px;border-radius:30px}
+.primary{background:#3b82f6}
+.secondary{border:1px solid #3b82f6}
+section{padding:100px 8%}
+.about{display:grid;grid-template-columns:1.2fr 1fr;gap:60px}
+.about img{width:100%;border-radius:16px}
+.focus-box{margin-top:20px;padding:16px;background:#11162a;border-radius:12px}
+.skills h2,.projects h2,.experience h2,.contact h2{text-align:center;margin-bottom:60px}
+.skill-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}
+.skill-card{background:#11162a;padding:24px;border-radius:16px}
+.skill-card span{display:inline-block;background:#1a2140;padding:6px 12px;border-radius:20px;margin:6px}
+.project-card{background:#11162a;padding:30px;border-radius:20px;margin-bottom:30px}
+.tags{color:#6aa7ff;margin-top:12px}
+.exp-grid{display:grid;grid-template-columns:1fr 1fr;gap:60px}
+.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:40px}
+input,textarea{width:100%;padding:12px;margin-bottom:12px;border-radius:10px;border:none;background:#11162a;color:#fff}
+button{padding:12px;background:#3b82f6;border:none;border-radius:10px;color:#fff}
+footer{text-align:center;padding:30px;color:#aaa}
